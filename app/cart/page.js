@@ -24,7 +24,7 @@ function Cart() {
                   <tbody>
                     <tr>
                       <td className="product-thumbnail">
-                        <img src="/assets/images/714zgLTdMHL.jpg" alt="Image" className="img-fluid" />
+                        <img src="assets/images/714zgLTdMHL.jpg" alt="Image" className="img-fluid" />
                       </td>
                       <td className="product-name">
                         <h2 className="h5 text-black">Product 1</h2>
@@ -48,7 +48,7 @@ function Cart() {
 
                     <tr>
                       <td className="product-thumbnail">
-                        <img src="/assets/images/61uedUo-R7L.jpg" alt="Image" className="img-fluid" />
+                        <img src="assets/images/61uedUo-R7L.jpg" alt="Image" className="img-fluid" />
                       </td>
                       <td className="product-name">
                         <h2 className="h5 text-black">Product 2</h2>
@@ -125,7 +125,7 @@ function Cart() {
 
                   <div className="row">
                     <div className="col-md-12">
-                      <a href='/page/checkout' className="btn btn-black btn-lg py-3 btn-block">Proceed To Checkout</a>
+                      <a href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'checkout.html':'/checkout'} className="btn btn-black btn-lg py-3 btn-block">Proceed To Checkout</a>
                     </div>
                   </div>
                 </div>

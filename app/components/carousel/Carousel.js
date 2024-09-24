@@ -23,14 +23,14 @@ function Carousel() {
                     <img style={{ height: 450 }} className="d-inline-block w-100" src="assets/images/c290d3c0a07ae8263ad7cf737a3618c2.jpg" alt="Third slide" />
                 </div>
             </div>
-            <a className="carousel-control-prev prev-btn" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            {/* <a className="carousel-control-prev prev-btn" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span className="carousel-control-prev-icon bg-info p-4" aria-hidden="true"></span>
                 <span className="sr-only p-4">Previous</span>
             </a>
             <a className="carousel-control-next next-btn" href="#carouselExampleIndicators" role="button" data-slide="next">
                 <span className="carousel-control-next-icon bg-info p-4" aria-hidden="true"></span>
                 <span className="sr-only p-4">Next</span>
-            </a>
+            </a> */}
         </div>
     )
 }

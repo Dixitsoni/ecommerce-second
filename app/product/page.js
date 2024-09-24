@@ -7,15 +7,15 @@ function SingleProduct() {
             <div className='row pb-5 p-5'>
                 <h2 className='px-3 pb-5 text-info'>Product Detail</h2>
                 <div className='col-1'>
-                    <img width={100} className='img-fluid border mt-2' src='/assets/images/buffalow-ghee-1.jpg' alt='productimage' />
-                    <img width={100} className='img-fluid border mt-2' src='/assets/images/buffalow-ghee-1.jpg' alt='productimage' />
-                    <img width={100} className='img-fluid border mt-2' src='/assets/images/buffalow-ghee-1.jpg' alt='productimage' />
-                    <img width={100} className='img-fluid border mt-2' src='/assets/images/buffalow-ghee-1.jpg' alt='productimage' />
+                    <img width={100} className='img-fluid border mt-2' src='assets/images/buffalow-ghee-1.jpg' alt='productimage' />
+                    <img width={100} className='img-fluid border mt-2' src='assets/images/buffalow-ghee-1.jpg' alt='productimage' />
+                    <img width={100} className='img-fluid border mt-2' src='assets/images/buffalow-ghee-1.jpg' alt='productimage' />
+                    <img width={100} className='img-fluid border mt-2' src='assets/images/buffalow-ghee-1.jpg' alt='productimage' />
                     {/* <img width={400} className='img-fluid' src='/assets/images/buffalow-ghee-1.jpg' alt='productimage' /> */}
                     {/* <img width={400} className='img-fluid' src='/assets/images/buffalow-ghee-1.jpg' alt='productimage' /> */}
                 </div>
                 <div className='col-3'>
-                    <img width={350} className='img-fluid' src='/assets/images/buffalow-ghee-1.jpg' alt='productimage' />
+                    <img width={350} className='img-fluid' src='assets/images/buffalow-ghee-1.jpg' alt='productimage' />
                 </div>
                 <div className='col-4'>
                     <div>
@@ -79,7 +79,7 @@ function SingleProduct() {
                             <button style={{ width: '200px' }} type='button' className='btn btn-secondary p-2 mt-5 mb-4'>Add To Cart</button>
                         </div>
                         <div className='col-12 text-center'>
-                            <a href='/page/checkout' style={{ width: '200px' }} type='button' className='btn  p-2 mb-5'>Buy Now</a>
+                            <a href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'checkout.html':'/checkout'} style={{ width: '200px' }} type='button' className='btn  p-2 mb-5'>Buy Now</a>
                         </div>
                     </div>
                 </div>

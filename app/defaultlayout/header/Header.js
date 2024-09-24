@@ -12,13 +12,13 @@ function Header() {
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-info">
                 <ul class="navbar-nav m-auto">
-                    <li className='nav-item active'><a class="nav-link navbar-brand text-white" href='/'>Home</a></li>
-                    <li className='nav-item'><a class="nav-link navbar-brand text-white" href='/page/about'>About Us</a></li>
+                    <li className='nav-item active'><a class="nav-link navbar-brand text-white" href={process.env.NEXT_APP_ENVIROMENT==process.env.NODE_ENV?'index.html':'/'}>Home</a></li>
+                    <li className='nav-item'><a class="nav-link navbar-brand text-white" href={process.env.NEXT_APP_ENVIROMENT==process.env.NODE_ENV?'about.html':'/about'}>About Us</a></li>
                     <li className='nav-item'><a class="nav-link navbar-brand text-white" href='#'>Products</a></li>
-                    <li className='nav-item'><a class="nav-link navbar-brand text-white" href='/page/contact'>Contact Us</a></li>
-                    <li className='nav-item product-quatity'><a class="nav-link navbar-brand text-white" href='/page/cart'><img title='go to cart' src='assets/images/cart.svg' alt='' /><span className='text-white'>1</span></a></li>
-                    <li className='nav-item'><a class="nav-link navbar-brand text-white" href='/page/auth/login'><img title='login' src='assets/images/user.svg' alt='' /></a></li>
-                    <li className='nav-item'><a class="nav-link navbar-brand text-white" href='/page/auth/signup'>Register</a></li>
+                    <li className='nav-item'><a class="nav-link navbar-brand text-white" href={process.env.NEXT_APP_ENVIROMENT==process.env.NODE_ENV?'contact.html':'/contact'}>Contact Us</a></li>
+                    <li className='nav-item product-quatity'><a class="nav-link navbar-brand text-white" href={process.env.NEXT_APP_ENVIROMENT==process.env.NODE_ENV?'cart.html':'/cart'}><img title='go to cart' src='assets/images/cart.svg' alt='' /><span className='text-white'>1</span></a></li>
+                    <li className='nav-item'><a class="nav-link navbar-brand text-white" href={process.env.NEXT_APP_ENVIROMENT==process.env.NODE_ENV?'login.html':'/login'}><img title='login' src='assets/images/user.svg' alt='' /></a></li>
+                    <li className='nav-item'><a class="nav-link navbar-brand text-white" href={process.env.NEXT_APP_ENVIROMENT==process.env.NODE_ENV?'signup.html':'/signup'}>Register</a></li>
                 </ul>
             </nav>
         </header>

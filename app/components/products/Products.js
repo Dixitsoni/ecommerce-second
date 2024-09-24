@@ -10,11 +10,11 @@ function Products() {
                     </div>
                     <div className='pt-5 row p-5'>
                         <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0 position-offer-product">
-                            <a className="product-item" href="/page/product">
+                            <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                 <img style={{ height: 200 }} width={300} src="assets/images/61uedUo-R7L.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                 <h3 className="product-title">Nordic Chair</h3>
                                 <strong className="product-price">$50.00</strong>
-
+                                
                                 {/* <span className="icon-cross">
                                         <img src="assets/images/cross.svg" className="img-fluid" />
                                     </span> */}
@@ -27,7 +27,7 @@ function Products() {
                             </a>
                         </div>
                         <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0 position-offer-product">
-                            <a className="product-item" href="/page/product">
+                            <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                 <img style={{ height: 200 }} width={300} src="assets/images/61uedUo-R7L.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                 <h3 className="product-title">Nordic Chair</h3>
                                 <strong className="product-price">$50.00</strong>
@@ -44,7 +44,7 @@ function Products() {
                             </a>
                         </div>
                         <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0 position-offer-product">
-                            <a className="product-item" href="/page/product">
+                            <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                 <img style={{ height: 200 }} width={300} src="assets/images/61uedUo-R7L.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                 <h3 className="product-title">Nordic Chair</h3>
                                 <strong className="product-price">$50.00</strong>
@@ -61,7 +61,7 @@ function Products() {
                             </a>
                         </div>
                         <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0 position-offer-product">
-                            <a className="product-item" href="/page/product">
+                            <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                 <img style={{ height: 200 }} width={300} src="assets/images/61uedUo-R7L.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                 <h3 className="product-title">Nordic Chair</h3>
                                 <strong className="product-price">$50.00</strong>
@@ -110,7 +110,7 @@ function Products() {
                     </div> */}
 
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                     <img width={300} src="assets/images/61uedUo-R7L.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                     <h3 className="product-title">Nordic Chair</h3>
                                     <strong className="product-price">$50.00</strong>
@@ -122,7 +122,7 @@ function Products() {
                             </div>
 
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                     <img width={300} src="assets/images/81pZKXclsaL.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                     <h3 className="product-title">Kruzo Aero Chair</h3>
                                     <strong className="product-price">$78.00</strong>
@@ -133,7 +133,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                     <img width={300} src="assets/images/714zgLTdMHL.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -144,7 +144,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                     <img width={300} src="assets/images/buffalow-ghee-1.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -155,7 +155,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mt-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                     <img width={300} src="assets/images/ghee-A2.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -166,7 +166,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mt-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                     <img width={300} src="assets/images/purecowghee.webp" className="img-fluid product-thumbnail ghee-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -177,7 +177,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mt-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV==process.env.NEXT_APP_ENVIROMENT?'product.html':'/product'}>
                                     <img width={300} src="assets/images/ProductGroup_646b505374203-productgroup-635bcdf41cb2b-cow-ghee-original-back.webp" className="img-fluid product-thumbnail ghee-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -188,7 +188,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mt-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/product.jpeg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -223,7 +223,7 @@ function Products() {
                         <p><a href="shop.html" className="btn">Explore</a></p>
                     </div> */}
                             <div className="col-12 col-md-3 col-lg-3 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/featured-oil-v2.png" className="img-fluid product-thumbnail oil-thumbnail" />
                                     <h3 className="product-title">Nordic Chair</h3>
                                     <strong className="product-price">$50.00</strong>
@@ -235,7 +235,7 @@ function Products() {
                             </div>
 
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/featured-oil-v2.png" className="img-fluid product-thumbnail oil-thumbnail" />
                                     <h3 className="product-title">Kruzo Aero Chair</h3>
                                     <strong className="product-price">$78.00</strong>
@@ -246,7 +246,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/featured-oil-v2.png" className="img-fluid product-thumbnail oil-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -257,7 +257,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/featured-oil-v2.png" className="img-fluid product-thumbnail oil-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -268,7 +268,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mt-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/featured-oil-v2.png" className="img-fluid product-thumbnail oil-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -279,7 +279,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mt-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/featured-oil-v2.png" className="img-fluid product-thumbnail oil-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -290,7 +290,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mt-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/featured-oil-v2.png" className="img-fluid product-thumbnail oil-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
@@ -301,7 +301,7 @@ function Products() {
                                 </a>
                             </div>
                             <div className="col-12 col-md-3 col-lg-3 mb-5 mt-5 mb-md-0">
-                                <a className="product-item" href="/page/product">
+                                <a className="product-item" href={process.env.NODE_ENV == process.env.NEXT_APP_ENVIROMENT ? 'product.html' : '/product'}>
                                     <img width={300} src="assets/images/featured-oil-v2.png" className="img-fluid product-thumbnail oil-thumbnail" />
                                     <h3 className="product-title">Ergonomic Chair</h3>
                                     <strong className="product-price">$43.00</strong>
