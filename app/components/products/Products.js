@@ -14,8 +14,10 @@ function Products() {
                                 <img style={{ height: 200 }} width={300} src="assets/images/61uedUo-R7L.jpg" className="img-fluid product-thumbnail ghee-thumbnail" />
                                 <h3 className="product-title">Nordic Chair</h3>
                                 <strong className="product-price">$50.00</strong>
-                                
-                                {/* <span className="icon-cross">
+                                <div className='bg-info p-2'>
+                                <img width={50} src='assets/images/5a4525cd546ddca7e1fcbc84.png' alt=''/>
+                                </div>
+                                    {/* <span className="icon-cross">
                                         <img src="assets/images/cross.svg" className="img-fluid" />
                                     </span> */}
                                 <div className="price-container price-position">
